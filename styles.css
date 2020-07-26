@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+html {
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+    
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    width: 250px;
+    height: auto;
+}
+
+.header-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 570;
+    padding-left: 20px;
+    
+}
+
+.header-list li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header-list {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.header-list li a:hover {
+    color:rgb(67, 7, 102);
+}
+
+.title {
+    background-image: linear-gradient(rgba(206, 133, 235, 0.7), rgba(0, 0, 0, 0.7)), url(/jie-wang-Dxf3SyDlHMk-unsplash.jpg);
+    height: 80vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.title-text {
+    color: white;
+    margin-top: 20%;
+}
+
+.title-text h1 {
+    font-size: 50px;
+}
+
+.title-text p {
+    font-size: 30px;
+}
+
+.f-h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:rgb(234, 235, 172);
+    padding:25px;
+}
+
+.f-h2::after {
+    display: block;
+    height: 4px;
+    background-color: rgb(217, 202, 226);
+    content: " ";
+    width: 200px;
+    margin: 30px auto;
+    margin-top: 30px;
+}
+.product{
+    padding:40px;
+
+}
+.features-text {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.features-text h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.features-text h3::after {
+    display: block;
+    height: 4px;
+    background-color: rgba(0, 128, 128, 0.5);
+    content: " ";
+    width: 90px;
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.abc {
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+
+
+.features-text p {
+    font-weight: 400;
+    text-align: justify;
+    color: white;
+}
+
+.features-img {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.features-img img {
+    width: 100%;
+    margin: 20px 10%;
+    
+}
+.features{
+    background-color: rgb(67, 7, 102);
+}
+.slide-one {
+    flex: 0 0 25%;
+    width: 25%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.slide-two {
+    flex: 0 0 25%;
+    width: 25%;
+    margin: 20px auto;
+    padding: 20px;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.slide-three {
+    flex: 0 0 25%;
+    width: 25%;
+    margin: 20px auto;
+    padding: 20px;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.slide-one a{
+    text-decoration: none;
+}
+.slide-two a{
+    text-decoration: none;
+}
+.slide-three a{
+    text-decoration: none;
+}
+
+
+.slide-one:hover {
+    background-color: rgb(67, 7, 102);
+    background-image: url("https://img.icons8.com/nolan/64/graduation-cap.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transition: 0.5s;
+    color:white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.356);
+    transform: scale(1.05);
+}
+.slide-two:hover {
+    background-color: rgb(67, 7, 102);
+    background-image: url("https://img.icons8.com/nolan/64/trophy.png");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    transition: 0.5s;
+    color:white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.356);
+    transform: scale(1.05);
+}
+.slide-three:hover {
+    background-color: rgb(67, 7, 102);
+    background-image: url("https://img.icons8.com/nolan/64/bag-front-view.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transition: 0.5s;
+    color:white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.356);
+    transform: scale(1.05);
+}
+.c-h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color:rgb(67, 7, 102);
+}
+
+.c-h2::after {
+    display: block;
+    height: 4px;
+    background-color:rgb(206, 206, 133);
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.company-slide{
+    flex: 0 0 25%;
+    width: 25%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.company-logo-first{
+    width: 100%;
+}
+footer{
+    
+    background-color:rgb(67, 7, 102) ;
+}
+footer h4{
+    margin:25px 70px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.footer-list li a {
+    text-decoration: none;
+    color:white;
+    font-weight: 570;
+    padding: 20px;
+    
+}
+
+.footer-list li {
+    list-style-type:none;
+    margin: 25px 60px;
+}
+
+.footer-list {
+    margin-top: 25px;
+    
+}
+
+.footer-list li a:hover {
+    color:rgb(217, 186, 235);
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }

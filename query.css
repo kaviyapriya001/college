@@ -1,0 +1,127 @@
+@media only screen and (max-width:550px){
+    
+    .container {
+        width: 300px;
+    }
+
+    .title {
+        flex: 0 0 40%;
+    }
+    .product{
+        flex: 0 0 40%;
+    }
+    .companies {
+        flex: 0 0 40%;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 300px;
+    }
+
+    .title {
+        flex: 0 0 40%;
+    }
+    .product{
+        flex: 0 0 40%;
+    }
+    .companies {
+        flex: 0 0 40%;
+    }
+
+  }
+  @media only screen and (min-width: 600px) {
+    .container {
+        width: 300px;
+    }
+
+    .title {
+        flex: 0 0 40%;
+    }
+    .product {
+        flex: 0 0 40%;
+    }
+    .companies{
+        flex: 0 0 40%;
+    }
+
+  }
+  @media only screen and (min-width: 768px) {
+    .container {
+        width: 300px;
+    }
+
+    .title {
+        flex: 0 0 40%;
+    }
+    .product {
+        flex: 0 0 40%;
+    }
+    .companies{
+        flex: 0 0 40%;
+    }
+ 
+  } 
+  @media only screen and (min-width: 992px) {
+    .container {
+        width: 300px;
+    }
+
+    .title {
+        flex: 0 0 40%;
+    }
+    .product {
+        flex: 0 0 40%;
+    }
+    .companies {
+        flex: 0 0 40%;
+    }
+ 
+  } 
+  
+  
+
+@media only screen and (max-width:1100px){
+
+    .container {
+        width: 900px;
+    }
+
+    .title {
+        flex: 0 0 30%;
+        width: 30%;
+        font-size: 30px;
+    }
+    .product{
+        flex: 0 0 30%;
+        width: 30%;
+        font-size: 30px;
+    }.companies{
+        flex: 0 0 30%;
+        width: 30%;
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+   
+    .container {
+        width: 900px;
+    }
+
+    .title {
+        flex: 0 0 30%;
+        width: 30%;
+        font-size: 30px;
+    }
+    .product {
+        flex: 0 0 30%;
+        width: 30%;
+        font-size: 30px;
+    }.companies {
+        flex: 0 0 30%;
+        width: 30%;
+        font-size: 30px;
+    }
+ 
+  }
